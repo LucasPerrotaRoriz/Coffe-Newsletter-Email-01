@@ -35,6 +35,9 @@
     <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
     <!--[if !mso]><!-->
     <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!--<![endif]-->
 
     <!-- Web Font / @font-face : END -->
@@ -233,11 +236,71 @@
             <![endif]-->
 
 	        <!-- Email Body : BEGIN -->
-	        <tr>
-                <td>
-                    s
-                </td>
-            </tr>
+	        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <!-- Email Header : BEGIN -->
+                <tr>
+                    <td>
+                        <img src="img/coffee-header.jpg" alt="Coffee header image" width="600" height="auto" border="0" style="max-width: 600px; width: 100%; height: auto; background-color: #FFF2EA;
+                        color: #555555; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; display: block; font-size: 16px; line-height: 20px;">
+                    </td>
+                </tr>
+                <!-- Email Header : BEGIN -->
+
+                <!-- Email Home : BEGIN -->
+                <tr>
+                    <td>
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #FFF2EB;">
+                            <!-- Clear Spacer : BEGIN -->
+                            <tr>
+                                <td aria-hidden="true" height="20" style="font-size: 0px; line-height: 0px;">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <!-- Clear Spacer : END -->
+                            <tr>
+                                <td align="center" style="font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 15px; line-height: 20px;
+                                padding-left: 10px; padding-right: 10px;">
+                                    <h1 style="color: #515151;">
+                                        Best Coffee
+                                    </h1>
+                                    <p style="max-width: 400px; line-height: 25px; color: #A5664F; margin: 0 0 10px 0;">
+                                        The cold weather is best enjoyed with the rich aroma and bold taste of finely toasted coffee beans. 
+                                        So sit back with a steaming cup of our specialty coffee and let the magic of winters take over.
+                                    </p>
+                                    <tr>
+                                        <td style="padding-top: 20px;">
+                                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin: auto;">
+                                                <tr>
+                                                    <td align="center" style="border-radius: 7px; background-color: #654F54;">
+                                                        <a href="#" style="font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; line-height: 20px;
+                                                        border-radius: 7px; background-color: #654F54; color: #ffffff; padding-top: 15px; padding-bottom: 15px; padding-left: 60px; padding-right: 60px;">
+                                                            Buy Now
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </td>
+                            </tr>
+                            <!-- Clear Spacer : BEGIN -->
+                            <tr>
+                                <td aria-hidden="true" height="20" style="font-size: 0px; line-height: 0px;">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <!-- Clear Spacer : END -->
+                            <tr>
+                                <td>
+                                    <img src="img/background.jpg" alt="Background image" width="600" height="auto" border="0" style="max-width: 600px; width: 100%; height: auto; background-color: #FFF2EB; color: #555555;
+                                    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; line-height: 20px;">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Email Home : END -->
+            </table>
             <!-- Email Body : END -->
 
             <!--[if mso]>
